@@ -1,0 +1,62 @@
+# AWS Cloud Labs
+
+**Hands-on AWS Cloud Engineering Portfolio**
+
+Welcome to my AWS Cloud Labs repository. This portfolio documents practical cloud engineering projects focused on infrastructure, networking, identity and access management, security, monitoring, and automation.
+
+## Objectives
+
+- Design and deploy AWS cloud infrastructure.
+- Apply AWS security and least-privilege principles.
+- Practice Infrastructure as Code (IaC) with Terraform.
+- Implement monitoring and operational best practices.
+- Document technical decisions, troubleshooting, and lessons learned.
+
+## Labs
+
+| # | Lab | Topics | Status |
+|---|---|---|---|
+| 01 | [IAM Identity and Access](./aws/01-iam-identity/) | IAM, policies, least privilege | Planned |
+| 02 | [VPC Networking](./aws/02-vpc-networking/) | VPC, subnets, route tables | Planned |
+| 03 | [EC2 Web Server](./aws/03-ec2-web-server/) | EC2, security groups, compute | Planned |
+| 04 | [S3 Static Website](./aws/04-s3-static-website/) | S3, storage, access control | Planned |
+| 05 | [CloudWatch Monitoring](./aws/05-cloudwatch-monitoring/) | Metrics, logs, alarms | Planned |
+| 06 | [Serverless Lambda](./aws/06-serverless-lambda/) | Lambda, serverless architecture | Planned |
+
+## Technologies
+
+- **Cloud:** Amazon Web Services (AWS)
+- **Infrastructure as Code:** Terraform
+- **Version Control:** GitHub
+- **Documentation:** Markdown and architecture diagrams
+
+## Repository Structure
+
+- `aws/` — AWS labs and implementation guides
+- `terraform/` — Infrastructure as Code examples
+- `diagrams/` — Cloud architecture diagrams
+- `docs/` — Documentation standards and security guidelines
+
+## Lab Documentation Standards
+
+Each completed lab aims to include:
+
+1. Problem statement and learning objectives
+2. Architecture diagram and design decisions
+3. Prerequisites and required permissions
+4. Step-by-step implementation instructions
+5. Validation results and screenshots
+6. Security considerations and troubleshooting
+7. Cleanup instructions and estimated cost considerations
+
+## Security
+
+No AWS credentials, access keys, private keys, tokens, or sensitive configuration files should be committed to this repository. All examples must use safe placeholders and follow least-privilege principles.
+
+## Disclaimer
+
+This repository is intended for educational and professional portfolio purposes. AWS resources may incur charges. Review the applicable pricing and delete resources when they are no longer needed.
+
+## Author
+
+Cloud engineering enthusiast documenting hands-on AWS projects and continuous learning.
